@@ -1,0 +1,141 @@
+/* Global styyle */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+/* navber */
+header{
+    background-image: url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920-1366x550.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 80vh;
+    position: relative;
+}
+.overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand h2{
+    color: #ffffff;
+    cursor: pointer;
+}
+.brand span{
+    color: #c8dad4;
+}
+ul.nav-list{
+    display: flex;
+}
+ul.nav-list li{
+    list-style: none;
+}
+ul.nav-list li a{
+    text-decoration: none;
+    color: #c8dad4;
+    display: block;
+    padding: 20px 15px;
+    font-size: 19px;
+    transition: color .3s;
+}
+ul.nav-list li:hover a{
+    color: #fff;
+}
+/* spatail section */
+.spatail{
+    position: absolute;
+    width:30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #ffffff;
+}
+.spatail .spatail-title{
+    font-size: 35px;
+    padding: 30px 0;
+}
+.spatail .spatail-desc{
+    color: #c8dad4;
+    margin-bottom: 20px;
+}
+
+.spatail .spatail-btn{
+    border: 0;
+    background: #ee2b59;
+    padding: 15px 20px;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+.spatail .spatail-btn:hover{
+    background-color: #e44d70 ;
+
+}
+/* about */
+.about{
+    margin: 100px 0;
+}
+.about-content{
+    display: flex;justify-content: center;
+}
+.first-desc{
+    width: 50%;
+    margin-right: 5%;
+}
+.socend-desc{
+    width: 40%;
+}
+.first-desc h1{
+    font-size: 50px;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.first-desc p{
+    color: #888;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.socend-desc p{
+    color: #888;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background: #ddd;
+}
+footer h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+footer p{
+    color: #777;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
